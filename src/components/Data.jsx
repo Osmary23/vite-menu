@@ -1,10 +1,11 @@
+
 const menu = [
     {
         id: 1,
         title: 'Personal Mixed Ceviche',
         category: 'Ceviches',
         price: 25.00,
-        img: '/src/assets/CEVICHE MIXTO personal2.webp',
+        imagenes: "../assets/CEVICHE MIXTO personal2.webp",
         desc: "Delicious mix of fresh Fish, shellfish and octopus, paried with lemon, cilantro and spices, a refrshing FontFaceSet.",
     },
     {
@@ -12,7 +13,7 @@ const menu = [
         title: 'Mixed Ceviche Platter',
         category: 'Ceviches',
         price: 40.00,
-        img: '/src/assets/CEVICHE MIXTO fuente.webp',
+        imagenes: '../assets/CEVICHE MIXTO fuente.webp',
         desc: "Delicious mix of fresh Fish, shellfish and octopus, paried with lemon, cilantro and spices, a refrshing FontFaceSet.",
     },
     {
@@ -20,7 +21,7 @@ const menu = [
         title: 'Personal Black Shell Ceviche',
         category: 'Ceviches',
         price: 30.00,
-        img: '/src/assets/CEVICHE DE PESCADO CON CONCHAS NEGRAS fuente.webp',
+        imagenes: '/src/assets/CEVICHE DE PESCADO CON CONCHAS NEGRAS fuente.webp',
         desc: "Exquisite seashells in lemon juice, cilantro and chili, a fresh delicius explosion.",
     },
     {
@@ -28,7 +29,7 @@ const menu = [
         title: 'Black Shell Ceviche Platter',
         category: 'Ceviches',
         price: 40.00,
-        img: '/src/assets/CEVICHE DE PESCADO CON CONCHAS NEGRAS (1) (1).webp',
+        imagenes: '/src/assets/CEVICHE DE PESCADO CON CONCHAS NEGRAS (1) (1).webp',
         desc: "Exquisite seashells in lemon juice, cilantro and chili, a fresh delicius explosion.",
     },
     {
@@ -36,7 +37,7 @@ const menu = [
         title: 'Personal Fish Ceviche',
         category: 'Ceviches',
         price: 25.00,
-        img: '/src/assets/CEVICHE DE PESCADO (1).webp',
+        imagenes: '/src/assets/CEVICHE DE PESCADO (1).webp',
         desc: "Fresh fish marinated in lemon with chili and cilantro, creating a citrus explosion and vibrant flavors.",
     },
     {
@@ -44,7 +45,7 @@ const menu = [
         title: 'Fish Ceviche Platter',
         category: 'Ceviches',
         price: 35.00,
-        img: '/src/assets/CEVICHE DE PESCADO (2).webp',
+        imagenes: '/src/assets/CEVICHE DE PESCADO (2).webp',
         desc: "Exquisite seashells in lemon juice, cilantro and chili, a fresh delicius explosion.",
     },
     {
@@ -52,7 +53,7 @@ const menu = [
         title: 'Personal Shrimp Ceviche',
         category: 'Ceviches',
         price: 25.00,
-        img: '/src/assets/CEVICHE DE PESCADO CON LANGOSTINOS (2).webp',
+        imagenes: '/src/assets/CEVICHE DE PESCADO CON LANGOSTINOS (2).webp',
         desc: "Delicate Shrimp marinated in lemon, cilantro and chili, creating a fresh and tasty feast.",
     },
     {
@@ -60,7 +61,7 @@ const menu = [
         title: 'Shrimp Ceviche Platter',
         category: 'Ceviches',
         price: 35.00,
-        img: '/src/assets/CEVICHE DE PESCADO CON LANGOSTINOS fuente (1).webp',
+        imagenes: '/src/assets/CEVICHE DE PESCADO CON LANGOSTINOS fuente (1).webp',
         desc: "Delicate Shrimp marinated in lemon, cilantro and chili, creating a fresh and tasty feast.",
     },
 
@@ -71,7 +72,7 @@ const menu = [
         title: 'Personal Lobter with garlic',
         category: 'only in Osmary',
         price: 30.00,
-        img: '/src/assets/LANGOSTA EN SALSA DE AJO (1).webp',
+        imagenes: '/src/assets/LANGOSTA EN SALSA DE AJO (1).webp',
         desc: "Is a delicius and crunchy culinary specialty that stands out for its marine flavor and golden texture, offering a unique gastronomic experience.",
     },
     {
@@ -79,7 +80,7 @@ const menu = [
         title: 'Lobter with garlic Platter',
         category: 'only in Osmary',
         price: 40.00,
-        img: '/src/assets/LANGOSTA EN SALSA DE AJO fuente.webp',
+        imagenes: '/src/assets/LANGOSTA EN SALSA DE AJO fuente.webp',
         desc: "Is a delicius and crunchy culinary specialty that stands out for its marine flavor and golden texture, offering a unique gastronomic experience.",
     },
 
